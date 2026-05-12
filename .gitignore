@@ -1,3 +1,5 @@
 .DS_Store
-_make_index.py
+.wrangler/
+__pycache__/
+_*.py
 game.html
