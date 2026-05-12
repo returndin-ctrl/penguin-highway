@@ -1,0 +1,9 @@
+name = "penguin-lobby"
+main = "worker.js"
+compatibility_date = "2026-05-01"
+
+# Fill in id after running: wrangler kv namespace create rooms
+# That command prints the id; paste it below and re-deploy.
+kv_namespaces = [
+  { binding = "ROOMS", id = "4d2abd2a96b04f92b1d4c1004978f971" }
+]
